@@ -1,0 +1,108 @@
+
+/* SECTION-1 */
+.product-heading{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+
+}
+.product-container{
+    margin: 20px;
+}
+.product-container h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: #121212;
+}
+
+/* SECTION-2*/
+
+.product-detail{
+    /* border: 2px solid rgb(255, 238, 0); */
+    width: 100%;
+    height: 700px;
+    margin-top: 20px;
+}
+.product-detail .product-container{
+    /* border: 1px solid rgba(240, 77, 104, 0.459); */
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.product-picture{
+    /* border: 2px solid blue; */
+    width: 50%;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.product-picture img{
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(50, 50, 50, 0.1);
+    width: 600px;
+    align-items: center;
+    justify-content: center;
+}
+.product-detail-body{
+    /* border: 2px solid orange; */
+    width: 50%;
+}
+.product-detail-body .product-title{
+    font-size: 25px;
+    font-weight: 500;
+    color: #121212;
+
+}
+
+.product-detail-body .product-price{
+    margin-top: 10px;
+    font-size: 28px;
+    font-weight: 500;
+}
+.product-detail-body .product-about{
+    margin-top: 10px;
+    color: #121212;
+
+}
+.product-detail-body .product-about h4{
+    font-size: 20px;
+    font-weight: 500;
+    color: #121212;
+
+}
+.product-detail-body .buttons{
+    /* border: 2px solid palegreen; */
+    margin-top: 20px;
+    display: flex;
+    font-weight: 500;
+    gap: 2px;
+
+}
+.product-detail-body .buttons .buy-now{
+    width: 50%;
+    border: none;
+    background-color: #ffa41c;
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.add-to-cart{
+    width: 50%;
+    font-size: 15px;
+    background-color: transparent;
+    color: #ffa41c;
+    padding: 8px;
+    border-radius: 10px;
+    border: 2px solid #ffa41c;
+    
+}
+.product-detail-body .product-about ul{
+    padding-left: 40px;
+}
+
